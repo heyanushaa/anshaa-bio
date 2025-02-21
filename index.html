@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Bio Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="profile-container">
+                <div class="profile-pic">
+                    <!-- Default avatar placeholder -->
+                    <img src="https://via.placeholder.com/150" alt="Profile Picture" id="profile-image">
+                </div>
+                <h1 class="name">Your Name</h1>
+                <p class="title">Professional Title</p>
+            </div>
+        </header>
+
+        <main>
+            <section class="about" id="about">
+                <h2>About Me</h2>
+                <p class="bio-text">
+                    Hello! I'm a passionate professional with expertise in various technologies.
+                    Click the edit button to customize this bio.
+                </p>
+                <button class="edit-btn" id="edit-bio">Edit Bio</button>
+            </section>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skills-container" id="skills-list">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                </div>
+                <input type="text" id="skill-input" placeholder="Add a new skill">
+                <button class="add-skill-btn" id="add-skill">Add Skill</button>
+            </section>
+
+            <section class="contact">
+                <h2>Contact</h2>
+                <div class="social-links">
+                    <a href="#" class="social-link">LinkedIn</a>
+                    <a href="#" class="social-link">GitHub</a>
+                    <a href="#" class="social-link">Email</a>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
